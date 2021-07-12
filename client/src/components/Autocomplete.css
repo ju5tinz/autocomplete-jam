@@ -1,0 +1,26 @@
+#autocomplete-cntr {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  min-width: 250px;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+}
+
+input {
+  margin: 0em 0.4em;
+  padding: 0.5em 0.5em 0.25em 0.5em;
+  font-size: 1em;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb(214, 214, 214);
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}

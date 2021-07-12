@@ -1,0 +1,7 @@
+#list-cntr {
+  margin: 0em 1em 1em 1em;
+}
+
+#list-cntr > div {
+  margin-top: 0.5em;
+}
