@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import AutocompleteList from './AutocompleteList';
 import { getAutocomplete } from '../api/autocomplete';
 
@@ -27,6 +27,7 @@ function Autocomplete() {
         type='text'
         value={queryText}
         onChange={ (e) => { setQueryText(e.target.value) } }
+        autoFocus
       />
       <AutocompleteList list={autocompleteList} />
     </div>
